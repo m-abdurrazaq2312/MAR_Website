@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MAR Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+	<header>
+		<div class="portfolio-container">
+			<div class="portfolio-row header-wrap">
+				<div class="brand-name">
+					<a href="#" class="logo">Muhammad Abdul Razaq</a>
+				</div>
+				<div class="hamburger">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+				<div class="portfolio-navbar">
+					<ul>
+						<li>
+							<a href="#name">Home</a>
+						</li>
+						<li>
+							<a href="#resumelink">Resume</a>
+						</li>
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>	
+			</div>
+		</div>
+	</header>
+	<section class="slide-carousel">
+		<div class="slider">
+			<div class="portfolio-container">
+				<section id="name">
+				<div class="slider-content">
+					<div class="slider-general">
+						<span class="welcome-msg">
+							
+						</span>
+						<div class="welcome-text">
+							<h1>
+								Hello, I am
+							</h1>
+							<div class="text-wrap">
+								<h2 class="main-title"style="font-size: 40px;">M. Abdul Razaq</h2>
+								<h2 class="hover-title"style="font-size: 40px;">M. Abdul Razaq</h>
+							</div>
+							<p>
+								My name is mentioned above, I would like to introduce myself as an enthusiastic, self-motivated, reliable, responsible and hardworking person.  I am a strong team worker and adaptable in all difficult situations.  I can work in a team environment as well as alone.  I am able to work well under pressure and adhere to tight deadlines.  I am a good communicator with proven interpersonal skills. I am always excited to learn and take on new challenges.
+							</p>
+							<section id="resumelink">
+							<div class="download-resume">
+								<a href="MAR.CV.pdf" target="_blank">
+									Download Resume
+								</a>
+							</div></section>
+						</div>
+					</div>
+					<div class="slider-image">
+						<div class="welcome-image">
+							<img src="myimage.png">
+						</div>
+						
+					</div>
+				</div></section>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="portfolio-container">
+			<div class="text-wrap">
+				<h2 class="main-title">Stay Connected</h2>
+				<h2 class="hover-title">Stay Connected</h2>
+			</div>
+			<div class="contact-info">
+				<span>
+					Gulberg # 1, Mohalla Iqbal Abad Nothia Jadeed Peshawar
+				</span>
+				<h3 style="font-size: 20px;">m.abdurrazaq.khan2312@gmail.com</h3>
+				<a href="https://wa.me/+923230192129" target="_blank"><i class="fa-brands fa-whatsapp"></i>  WhatsApp
+				</a>
+			</div>
+			<div class="social-links">
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/profile.php?id=100082389652422" target="_blank"><i class="fa-brands fa-facebook"></i>  Facebook</a>
+					</li>
+					<li>
+						<a href="https://instagram.com/m.abdurrazaq2312?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa-brands fa-square-instagram"></i> Instagram</a>
+					</li>
+					<li>
+						<a href="mailto:m.abdurrazaq.khan2312@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i> Gmail</a>
+					</li>
+					<li>
+						<a href="mailto:m.abdurrazaq2312@yahoo.com" target="_blank"><i class="fa-brands fa-yahoo"></i> Yahoo</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<script>
+		const hamburger = document.querySelector(".hamburger");
+		hamburger.addEventListener("click", function(){
+			document.querySelector(".portfolio-navbar").classList.toggle("show");
+		});
+	</script>
+</body>
+</html>
+
